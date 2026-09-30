@@ -1,1 +1,8 @@
+CREATE DATABASE dharanii;
+USE dharanii;
 
+   ALTER TABLE student
+   ADD COLUMN Email VARCHAR(30),
+   ADD COLUMN PhoneNumber NUMERIC(10);
+
+   DESC Student;
